@@ -1,0 +1,64 @@
+body {
+ background: #A4A9DF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  border-radius: 5px;
+  height: 400px;
+  padding: 0.8em;
+  margin: 1rem 5px 0px 5px;
+  position: relative;
+}
+
+input {
+  padding: 0.3rem; 
+  width: 260px;
+}
+
+.srh-bar button {
+  padding: 0.3rem;
+  margin-left: 0.6rem;
+  width: 60px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: -2.2em;
+}
+
+li {
+  list-style: none;
+  margin: 0.2rem;
+  padding: .4em;
+  background: #A4A9DF;
+  display: flex;
+  justify-content: space-between;
+  border-radius: .2em;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 0.5em;
+  background: #515cdb;
+  color: white;
+  border: none;
+  border-radius: .5em;
+  font-size: .8em;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #515cdb;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
